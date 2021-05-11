@@ -9,6 +9,8 @@ else
 echo "Not Even"
 fi
 
+
+#**********************************
 #Using BC
 
 #if [ `echo "$n%2" | bc` -eq 0 ]
