@@ -1,9 +1,8 @@
 echo "Enter Number"
 read num
 even=0
-odd=0
-#num=${num#0} 
-#num=$((10#$(echo "$num")))
+odd=0 
+num=$((10#$(echo "$num")))
 while [ $num -gt 0 ]; do
     mod=$(($num % 10))
     if [ $mod != 0 ]; then
